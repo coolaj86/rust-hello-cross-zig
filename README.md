@@ -48,7 +48,7 @@ Cross-compile a few more, if you so desire.
     export PATH="$HOME/.local/bin:$PATH"
     ```
 
-2. Install `rustup`, `cargo`, and `rustcc`
+2. Install `rustup`, `cargo`, and `rustc`
 
     ```bash
     webi rust
