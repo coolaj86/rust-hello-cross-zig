@@ -2,9 +2,13 @@
 
 A simple Rust "Hello World" with the necessary config for cross-compiling with Zig
 
-(DOESN'T WORK YET)
-
 Adapted from <https://actually.fyi/posts/zig-makes-rust-cross-compilation-just-work/>.
+
+This **Doesn't Work Yet**, except for these specific scenarios:
+
+- Linux x86_64 Host
+  - Apple M1 Target
+  - Apple x86_64 Target
 
 ```bash
 git clone https://github.com/coolaj86/rust-hello-cross-zig.git
