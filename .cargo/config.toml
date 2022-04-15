@@ -1,0 +1,44 @@
+[target.aarch64-apple-darwin]
+linker = "zig-cc-aarch64-macos-gnu"
+
+#[target.aarch64-pc-windows-msvc]
+# zig-cc-none
+
+#[target.none]
+#linker = "zig-cc-aarch64-windows-gnu"
+
+[target.aarch64-unknown-linux-gnu]
+linker = "zig-cc-aarch64-linux-gnu"
+
+[target.aarch64-unknown-linux-musl]
+linker = "zig-cc-aarch64-linux-musl"
+
+#[target.armv7-unknown-linux-gnueabi]
+# TODO
+
+#[target.armv7-unknown-linux-gnueabihf]
+# TODO
+
+#[target.armv7-unknown-linux-musleabi]
+# TODO
+
+#[target.armv7-unknown-linux-musleabihf]
+# TODO
+
+[target.wasm32-wasi]
+linker = "zig-cc-wasm32-wasi-musl"
+
+[target.x86_64-apple-darwin]
+linker = "zig-cc-x86_64-macos-gnu"
+
+[target.x86_64-pc-windows-gnu]
+linker = "zig-cc-x86_64-windows-gnu"
+
+#[target.x86_64-pc-windows-msvc]
+# zig-cc-none
+
+[target.x86_64-unknown-linux-gnu]
+linker = "zig-cc-x86_64-linux-gnu"
+
+[target.x86_64-unknown-linux-musl]
+linker = "zig-cc-x86_64-linux-musl"

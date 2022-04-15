@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+set -u
+
+rustup target list | cut -d' ' -f1 | while read -r my_rust_target; do
+
+    rustup target add "$my_rust_target"
+
+done
